@@ -17,16 +17,39 @@ body {
 			padding: 1em 0; /* 2 */
 		}
 
-		nav {
+		.headernav {
 			float: right;
 			font-size: 2em; /* 2 */
 			padding: 4.5em 0 .5em; /* 10 */
 		}
 
-			nav a {
+			.headernav a {
 				color: white;
 			}
+	.footerbtn{
+		text-decoration: none;
+		color:white;
 
-	footer {
+	}
+
+	.footerbtn:hover {
+		color:#F87217;
+	}
+	.footernav {
+		
+		margin: 0 auto;
+		position: static;
+		font-size:1.2em;
+		text-align: center;
+		height: 35px;
+		padding:10px 0 20px 0;
+		background-color:#4B0082; 
+		text-decoration: none;
+		font-family: 'Creepster', cursive;
+		letter-spacing: .1em;
+		text-align: vertical;
+		color: white;
+
+
 
 	}
