@@ -1,32 +1,88 @@
 /* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
 
-body {
-	background: black url(../images/background.png);
+html {
+	position: relative;
+	min-height: 100%;
+	overflow-y: scroll;
 }
 
-	header {
-		width: 80%;
-		margin: 0 auto;
-		position: static;
+	body {
+		background: black url(../images/background.png);
+		margin: 0 0 2em;
 	}
-
-		#logo {
-			float: left;
-			height: 10em; /* 10 */
-			padding: 1em 0; /* 2 */
+	
+		header {
+			position: relative;
+			width: 100%;
 		}
 
-		nav {
-			float: right;
-			font-size: 2em; /* 2 */
-			padding: 4.5em 0 .5em; /* 10 */
+		#header_container {
+			width: 80%;
+			margin: 0 10%;
+			display: block;
+			position: absolute;
+			top: 0;
 		}
 
-			nav a {
-				color: white;
+			#logo {
+				float: left;
+				height: 10em; /* 10 */
+				padding: 1em 0; /* 2 */
 			}
 
-	footer {
+			#header_container > nav {
+				float: right;
+				font-size: 2em; /* 2 */
+				padding: 4.5em 0 .5em; /* 10 */
+			}
 
-	}
+				nav a {
+					color: white;
+				}
+
+		section {
+			clear: both;
+			overflow: auto;
+		}
+
+			#main_img {
+			}
+
+			#main_img img {
+				width: 100%;
+				margin-top:;
+			}
+
+			#articles {
+				width: 80%;
+				margin: 2em auto 0;
+			}
+		
+				.article {
+					width: 45%;
+					float: left;
+					color: hsla(0,100%,100%,.75);
+					font-size: 1.5em;
+				}
+
+					#article_1 {
+						margin-right: 2.5%;
+					}
+
+					#article_1 {
+						margin-left: 2.5%;
+					}
+
+		footer {
+			position: absolute;
+			background: hsla(0,0%,0%,.25);
+			bottom: 0;
+			height: 2em;
+			width: 100%;
+		}
+
+			footer nav {
+				text-align: center;
+				padding-top: .5em;
+			}
