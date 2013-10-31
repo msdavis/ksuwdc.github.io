@@ -25,7 +25,6 @@ html {
 			top: 0;
 		}
 
-<<<<<<< HEAD
 			#logo {
 				float: left;
 				height: 10em; /* 10 */
@@ -46,8 +45,6 @@ html {
 			clear: both;
 		}
 
-			#main_img {
-=======
 		.headernav {
 			float: right;
 			font-size: 2em; /* 2 */
@@ -56,12 +53,10 @@ html {
 
 			.headernav a {
 				color: white;
->>>>>>> fe79925c79433137233e655ae2522271c3fba045
 			}
 	.footerbtn{
 		text-decoration: none;
 		color:white;
-
 	}
 
 	.footerbtn:hover {
@@ -82,8 +77,26 @@ html {
 		text-align: vertical;
 		color: white;
 
+}
+	.footerbtn:hover {
+		color:#F87217;
+	}
+	.footernav {
+		
+		margin: 0 auto;
+		position: static;
+		font-size:1.2em;
+		text-align: center;
+		height: 35px;
+		padding:10px 0 20px 0;
+		background-color:#4B0082; 
+		text-decoration: none;
+		font-family: 'Creepster', cursive;
+		letter-spacing: .1em;
+		text-align: vertical;
+		color: white;
 
-<<<<<<< HEAD
+}
 			#main_img img {
 				width: 100%;
 				margin-top:;
@@ -116,8 +129,6 @@ html {
 			height: 2em;
 			width: 100%;
 		}
-=======
->>>>>>> fe79925c79433137233e655ae2522271c3fba045
 
 			footer nav {
 				text-align: center;
