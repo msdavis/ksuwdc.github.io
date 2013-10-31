@@ -25,6 +25,7 @@ html {
 			top: 0;
 		}
 
+<<<<<<< HEAD
 			#logo {
 				float: left;
 				height: 10em; /* 10 */
@@ -45,6 +46,8 @@ html {
 			clear: both;
 		}
 
+=======
+>>>>>>> fe79925c79433137233e655ae2522271c3fba045
 		.headernav {
 			float: right;
 			font-size: 2em; /* 2 */
@@ -57,6 +60,7 @@ html {
 	.footerbtn{
 		text-decoration: none;
 		color:white;
+<<<<<<< HEAD
 	}
 
 	.footerbtn:hover {
@@ -76,6 +80,30 @@ html {
 		letter-spacing: .1em;
 		text-align: vertical;
 		color: white;
+=======
+
+	}
+
+	.footerbtn:hover {
+		color:#F87217;
+	}
+	.footernav {
+		
+		margin: 0 auto;
+		position: static;
+		font-size:1.2em;
+		text-align: center;
+		height: 35px;
+		padding:10px 0 20px 0;
+		background-color:#4B0082; 
+		text-decoration: none;
+		font-family: 'Creepster', cursive;
+		letter-spacing: .1em;
+		text-align: vertical;
+		color: white;
+
+
+>>>>>>> fe79925c79433137233e655ae2522271c3fba045
 
 }
 	.footerbtn:hover {
